@@ -1,0 +1,177 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+
+/* Utilities */
+.container {
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+    max-width: 1100px;
+}
+
+.current {
+    background: #403d39;
+}
+
+.primary-text {
+    color: #ff9100;
+}
+
+.bg-dark {
+    background: #252422;
+    color: #fffcf2;
+}
+
+.bg-light {
+    background: #ccc5b9;
+    color: #252422;
+}
+
+.bg-primary {
+    background: #ff9100;
+    color: #252422;
+}
+
+.btn {
+    background: #252422;
+    color: #fffcf2;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn-light:hover {
+    background: #ff9100;
+    color: #252422;
+}
+
+.btn-light {
+    background: #fffcf2;
+    color: #252422;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+
+
+/* Navigation */
+
+#main-nav {
+    background-color: #252422;
+    color: #fffcf2;
+    overflow: auto;
+}
+
+#main-nav h1 {
+    float: left;
+    padding-top: 15px;
+}
+
+#main-nav a {
+    color: #fffcf2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main-nav ul {
+    color: #fffcf2;
+    float: right;
+    list-style: none;
+}
+
+#main-nav ul li {
+    float: left;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-nav ul li a:hover {
+    background: #403d39;
+    color: #ff9100;
+}
+
+#main-nav ul li a.current {
+    color: #ff9100;
+}
+
+
+/* Showcase */
+#showcase {
+    background: url('https://images.unsplash.com/photo-1461695008884-244cb4543d74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #252422;
+    text-align: center;
+    margin: 200px 0 0 500px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#showcase .showcase-content p {
+    font-size: 18px;
+}
+
+/* Information about hotel */
+#home-info {
+    height: 500px;
+}
+
+#home-info .info-img {
+    float: left;
+    background: url('https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80') no-repeat;
+    height: 500px;
+    width: 30%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding: 90px;
+    /* margin-top: 70px; */
+}
+
+#home-info .info-content h2 {
+    margin-bottom: 20px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 50px;
+}
+
+#main-footer {
+    text-align: center;
+    background: #252422;
+    color: #fffcf2;
+    padding: 15px;
+    overflow: hidden;
+}
